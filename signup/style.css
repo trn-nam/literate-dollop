@@ -35,7 +35,14 @@ body{
     padding-top: 5px;
     padding-right: 10px;
 }
-.form-input{
+.input-signup-username{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.input-signup-password{
     background: transparent;
     border: 0;
     outline: 0;
@@ -50,7 +57,7 @@ body{
     cursor: pointer;
 }
 
-.form-submit{
+.signup__signInButton{
     background: transparent;
     border: 1px solid #f5f5f5;
     color: #fff;
